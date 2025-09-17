@@ -61,7 +61,7 @@ export default function Hero() {
             <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/5 rounded-full blur-3xl" />
             <div className="relative bg-muted rounded-full overflow-hidden border border-border">
               <img
-                src="/eu.jpeg"
+                src="/atualizado.jpeg"
                 alt="Foto de perfil"
                 className="w-full h-full object-cover"
               />
