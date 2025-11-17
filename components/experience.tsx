@@ -6,12 +6,20 @@ import { CalendarIcon, MapPinIcon } from "lucide-react"
 
 const experiences = [
   {
+    title: "Desenvolvedor Web e Social Media",
+    company: "Montana",
+    location: "Remoto",
+    period: "2025 - Presente",
+    description:
+      "Responsável pelo desenvolvimento e manutenção de páginas e landing pages da empresa, além da criação de peças e estratégias para redes sociais. Atuo unindo desenvolvimento web e marketing digital para fortalecer a presença online da marca.",
+  },
+  {
     title: "Estágio Cartório",
     company: "Tabelionato de Notas",
     location: "Presencial",
     period: "2024 - 2025",
     description:
-      "Desenvolvi habilidades essenciais para a área de TI, como trabalho em equipe, organização, atenção aos detalhes e comunicação eficaz. Tive contato com sistemas internos e aprendi a lidar com prazos, responsabilidades e atendimento ao público, fortalecendo competências valiosas para o ambiente tecnológico.",
+      "Desenvolvi habilidades essenciais para a área de TI, como...ortalecendo competências valiosas para o ambiente tecnológico.",
   },
   {
     title: "Técnico em Desenvolvimento de Sistemas",
@@ -19,7 +27,7 @@ const experiences = [
     location: "Remoto",
     period: "2024 - Presente",
     description:
-      "Atualmente estou me especializando tanto na teoria quanto na prática do desenvolvimento de sistemas. O curso técnico tem me proporcionado conhecimento direto em lógica de programação, banco de dados, desenvolvimento web e boas práticas de codificação, complementando minha graduação em Engenharia de Software..",
+      "Atualmente estou me especializando tanto na teoria quanto...ão, complementando minha graduação em Engenharia de Software..",
   },
   {
     title: "Faculdade Engenharia de Software",
@@ -27,9 +35,10 @@ const experiences = [
     location: "Presencial",
     period: "2025 - Presente",
     description:
-      "Atualmente estou iniciando minha graduação em Engenharia de Software, onde estou construindo uma base sólida em lógica de programação, estrutura de dados, resolução de problemas e fundamentos do desenvolvimento de sistemas. A faculdade tem ampliado minha visão sobre o ciclo de vida do software e boas práticas de engenharia.",
+      "Atualmente estou iniciando minha graduação em Engenharia ...",
   },
 ]
+
 
 export default function Experience() {
   return (

@@ -57,16 +57,7 @@ export default function Hero() {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="hidden lg:block"
         >
-          <div className="relative w-full aspect-square max-w-md mx-auto">
-            <div className="absolute inset-0 bg-gradient-to-br from-primary/20 to-primary/5 rounded-full blur-3xl" />
-            <div className="relative bg-muted rounded-full overflow-hidden border border-border">
-              <img
-                src="/atualizado.jpeg"
-                alt="Foto de perfil"
-                className="w-full h-full object-cover"
-              />
-            </div>
-          </div>
+          
         </motion.div>
       </div>
     </section>
